@@ -1,0 +1,66 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-s) var(--padding-5xl);
+    justify-content: flex-start;
+}
+
+.alinhamento-cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-xs);
+    width: 100%;   
+}
+
+.alinhamento-cabecalho img {
+    width: 150px;
+    height: auto;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.menu-agrupado {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 180px;
+    width: 100%;
+}
+
+.menu-lista {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-xl);
+    font-family: var(--font-inter);
+    color: var(--cor-de-fonte);
+    font-weight: 500;
+    font-size: 0.85rem;
+    width: 100%;
+} 
+
+.menu-item {
+    display: flex;
+}
+
+.menu-botao {
+    padding-right: var(--padding-xs);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-family: var(--font-inter);
+    font-size: 0.85rem;
+    color: var(--cor-de-fonte);
+    font-weight: 500;
+    margin-left: 540px;
+}
+
+.botao-cadastrar {
+    border-radius: 8px;
+    padding: 0.75rem var(--padding-m);
+    font-size: 0.85rem;
+    border: none;
+    color: var(--cor-de-fundo);
+    background: var(--cor-de-fonte-2);
+}

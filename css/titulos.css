@@ -1,0 +1,40 @@
+.secao-conteudo {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem 10rem 0 10rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 16px;
+    color: var(--cor-de-fonte-2);
+    font-weight: 600;
+    font-family: var(--font-inter);
+    margin-bottom: 30px;
+}
+
+.subtitulo {
+    font-family: var(--font-inter);
+    font-size: 40px;
+    color: var(--cor-escura);
+    margin-bottom: 30px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    flex-wrap: wrap;
+    font-family: var(--font-inter);
+    color: var(--cor-de-fonte-3);
+    padding: 0 1.5rem;
+}
