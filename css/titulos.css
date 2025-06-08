@@ -27,7 +27,7 @@
     margin-bottom: 30px;
 }
 
-.texto {
+/* .texto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,4 +37,12 @@
     font-family: var(--font-inter);
     color: var(--cor-de-fonte-3);
     padding: 0 1.5rem;
+} */
+
+.texto {
+    color: var(--cor-de-fonte-3);
+    font-weight: 400;
+    font-size: 20px;
+    width: 791px;
+    height: 60px;
 }

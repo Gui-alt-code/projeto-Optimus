@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/titulos.css">
     <link rel="stylesheet" href="css/metricas.css">
+    <link rel="stylesheet" href="css/talentos.css">
+    <link rel="stylesheet" href="css/opcoes.css">
+    <link rel="stylesheet" href="css/colaboradores.css">
+    <link rel="stylesheet" href="css/oportunidade.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -70,20 +74,83 @@
 
     </section>
 
-    <section>
-        <h4>Vagas abertas</h4>
-        <h3>Estamos procurando por talentos</h3>
-        <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+    <section class="vagas">
+        <h4 class="vagas-titulo">Vagas abertas!</h4>
+        <h3 class="vagas-subtitulo">Estamos procurando por talentos</h3>
+        <p class="vagas-texto">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+        <img src="imagens/Image.svg" alt="Imagem ilustrativa de uma reunião"> 
+    </section>
 
-        <div>
-            <img src="imagens/Image.svg" alt="Imagem ilustrativa de uma reunião">
+    <section class="vagas-abertas">
+        <h2 class="area">Design</h2>
+
+        <div class="vaga">
+            <span class="titulo-vaga">Product Designer</span>
+        <div class="informacoes">
+            <span>Full-time</span>
+            <span>Faixa salarial: R$7.000</span>
+            </div>
+        </div>
+
+        <div class="vaga">
+            <span class="titulo-vaga">UX Designer</span>
+        <div class="informacoes">
+            <span>Full-time</span>
+            <span>Faixa salarial: R$6.000</span>
+            </div>
+        </div>
+
+       
+        <h2 class="area">Desenvolvimento de Software</h2>
+
+        <div class="vaga">
+            <span class="titulo-vaga">Desenvolvedor(a) iOS Pleno</span>
+        <div class="informacoes">
+            <span>Full-time</span>
+            <span>Faixa salarial: R$8.000</span>
+            </div>
+        </div>
+
+        <div class="vaga">
+            <span class="titulo-vaga">Desenvolvedor(a) Front-end</span>
+        <div class="informacoes">
+            <span>Full-time</span>
+            <span>Faixa salarial: R$7.000</span>
+            </div>
+        </div>
+
+        <div class="vaga">
+            <span class="titulo-vaga">Desenvolvedor(a) Back-end</span>
+        <div class="informacoes">
+            <span>Full-time</span>
+            <span>Faixa salarial: R$8.000</span>
+            </div>
         </div>
 
     </section>
 
+    <section class="colaborador">
+        <h3 class="titulo-para-opiniao">Veja o que nossos colaboradores falam sobre nós</h3>
+        <h4 class="opiniao">OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h4>
+        <img src="imagens/Avatar.svg">
+        <h4 class="colaboradora">Júlia Castro</h4>
+        <h4 class="ocupacao">Desenvolvedora Web</h4>
+    </section>
+
     </main>
 
-    <footer></footer>
+    <footer class="oportunidades">
+        <h2 class="titulo-oportunidades">Acompanhe as nossas oportunidades</h1>
+        <span class="texto-oportunidades">Seja o primeiro a saber quando novas vagas serão abertas!</span>
+
+            <form class="email-cadastrado">
+                <input type="email" id="emailInput" name="email" placeholder="Seu e-mail" class="input-email">
+                <button type="submit" class="botao-cadastrar-oportunidade">Cadastrar</button>
+            </form>
+
+            <p class="texto-rodape">© 2022 OptimusTech. Todos os direitos reservados.</p>
+
+    </footer>
 
 </body>
 </html>
